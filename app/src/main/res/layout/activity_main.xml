@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Existing components -->
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+
+    <TextView
+        android:id="@+id/image_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Count: 0" />
+
+    <TextView
+        android:id="@+id/usage_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usage Counter: 0" />
+
+</RelativeLayout>
